@@ -1,9 +1,9 @@
 [package]
-name = "markdown-viewer-v2"
-version = "0.1.0"
-description = "A Tauri App"
+name = "MarkdownViewer"
+version = "1.0.0"
+description = "A simple standalone markdown viewer-only app for Windows 11"
 authors = ["o9"]
-edition = "2021"
+edition = "2026"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -11,7 +11,7 @@ edition = "2021"
 # The `_lib` suffix may seem redundant but it is necessary
 # to make the lib name unique and wouldn't conflict with the bin name.
 # This seems to be only an issue on Windows, see https://github.com/rust-lang/cargo/issues/8519
-name = "markdown_viewer_v2_lib"
+name = "MarkdownViewer_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [build-dependencies]
