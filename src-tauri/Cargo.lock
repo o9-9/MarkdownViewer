@@ -3,6 +3,22 @@
 version = 4
 
 [[package]]
+name = "MarkdownViewer"
+version = "1.0.0"
+dependencies = [
+ "comrak",
+ "notify",
+ "serde",
+ "serde_json",
+ "tauri",
+ "tauri-build",
+ "tauri-plugin-dialog",
+ "tauri-plugin-opener",
+ "tauri-plugin-prevent-default",
+ "window-vibrancy 0.5.3",
+]
+
+[[package]]
 name = "adler2"
 version = "2.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2064,22 +2080,6 @@ name = "mac"
 version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c41e0c4fef86961ac6d6f8a82609f55f31b05e4fce149ac5710e439df7619ba4"
-
-[[package]]
-name = "MarkdownViewer"
-version = "0.1.0"
-dependencies = [
- "comrak",
- "notify",
- "serde",
- "serde_json",
- "tauri",
- "tauri-build",
- "tauri-plugin-dialog",
- "tauri-plugin-opener",
- "tauri-plugin-prevent-default",
- "window-vibrancy 0.5.3",
-]
 
 [[package]]
 name = "markup5ever"
