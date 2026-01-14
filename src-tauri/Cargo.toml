@@ -2,7 +2,7 @@
 name = "markdown-viewer-v2"
 version = "0.1.0"
 description = "A Tauri App"
-authors = ["you"]
+authors = ["o9"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -27,4 +27,3 @@ window-vibrancy = "0.5"
 serde_json = "1"
 tauri-plugin-prevent-default = "2.0.0-rc.1"
 notify = "6"
-
